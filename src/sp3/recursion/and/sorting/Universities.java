@@ -31,9 +31,6 @@ public class Universities {
     }
 
     private static List<Integer> max(int[] input, int k) {
-//        List<University> universities = IntStream.rangeClosed(0, 10_000)
-//                .mapToObj(i -> new University(i, 0))
-//                .collect(Collectors.toList());
         University[] universities = new University[10_000];
 
         for (int i = 0; i < 10_000; i++) {

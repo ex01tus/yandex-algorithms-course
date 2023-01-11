@@ -36,7 +36,6 @@ public class LargestNumber {
     }
 
     public static void main(String[] args) throws IOException {
-//        Comparator<Integer> comparator = (a, b) -> ("" + a + b).compareTo("" + b + a);
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             int n = Integer.parseInt(reader.readLine());
             StringTokenizer tokenizer = new StringTokenizer(reader.readLine());
