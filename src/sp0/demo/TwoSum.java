@@ -1,4 +1,4 @@
-package sp0.free;
+package sp0.demo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
